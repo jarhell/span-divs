@@ -1,9 +1,14 @@
+/*default setup*/
 html, body {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
-body {
-  background-image: url(../img/g.jpg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.important{
+  color: red;
+  background-color: lightgrey;
+}
+.unimportant {
+  color: blue;
+  background-color: green;
 }
